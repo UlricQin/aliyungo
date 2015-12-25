@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/denverdino/aliyungo/util"
+	"github.com/ulricqin/aliyungo/util"
 )
 
 // Constants for Aliyun API requests

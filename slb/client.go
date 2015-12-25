@@ -1,6 +1,6 @@
 package slb
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/ulricqin/aliyungo/common"
 
 type Client struct {
 	common.Client

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/denverdino/aliyungo/common"
+	"github.com/ulricqin/aliyungo/common"
 )
 
 func TestVPCCreationAndDeletion(t *testing.T) {

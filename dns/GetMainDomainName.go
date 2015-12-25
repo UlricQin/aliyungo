@@ -1,6 +1,6 @@
 package dns
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/ulricqin/aliyungo/common"
 
 type GetMainDomainNameArgs struct {
 	InputString string

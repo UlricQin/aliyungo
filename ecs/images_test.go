@@ -1,7 +1,7 @@
 package ecs
 
 import (
-	"github.com/denverdino/aliyungo/common"
+	"github.com/ulricqin/aliyungo/common"
 	"testing"
 )
 

@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/denverdino/aliyungo/common"
-	"github.com/denverdino/aliyungo/util"
+	"github.com/ulricqin/aliyungo/common"
+	"github.com/ulricqin/aliyungo/util"
 )
 
 const DefaultContentType = "application/octet-stream"

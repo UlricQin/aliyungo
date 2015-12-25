@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/denverdino/aliyungo/common"
+	"github.com/ulricqin/aliyungo/common"
 )
 
 func ExampleClient_DescribeInstanceStatus() {

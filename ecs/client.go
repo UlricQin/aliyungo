@@ -1,6 +1,6 @@
 package ecs
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/ulricqin/aliyungo/common"
 
 // Interval for checking status in WaitForXXX method
 const DefaultWaitForInterval = 5
