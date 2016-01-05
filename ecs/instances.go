@@ -18,6 +18,9 @@ const (
 
 	Stopped  = InstanceStatus("Stopped")
 	Stopping = InstanceStatus("Stopping")
+
+	Pending = InstanceStatus("Pending")
+	Deleted = InstanceStatus("Deleted")
 )
 
 type LockReason string
@@ -175,9 +178,12 @@ type InstanceAttributesType struct {
 	ImageId          string
 	RegionId         common.Region
 	ZoneId           string
+	Cpu              int
+	Memory           int
 	ClusterId        string
 	InstanceType     string
 	HostName         string
+	SerialNumber     string
 	Status           InstanceStatus
 	OperationLocks   OperationLocksType
 	SecurityGroupIds struct {
@@ -190,6 +196,7 @@ type InstanceAttributesType struct {
 	InternetMaxBandwidthOut int
 	InternetChargeType      common.InternetChargeType
 	CreationTime            util.ISO6801Time //time.Time
+	ExpiredTime             util.ISO6801Time //time.Time
 	VpcAttributes           VpcAttributesType
 	EipAddress              EipAddressAssociateType
 }
